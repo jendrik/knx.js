@@ -31,7 +31,8 @@ type DPT = string
 
 type DatapointOptions = {
     ga: KnxGroupAddress,
-    dpt: DPT
+    dpt: DPT,
+    autoread?: boolean
 }
 
 interface DatapointEvent {
